@@ -29,7 +29,17 @@ public class JavaWebCrawller {
 
                 Document document = Jsoup.connect(URL).get();
                 Elements linksOnPage = document.select("a[href]");
+                Elements contentOnPage = document.select("meta[property^=og:]");
+                for (int i = 0; i < contentOnPage.size(); i++) {
+                    Element tag = contentOnPage.get(i);
 
+                    String text = tag.attr("property");
+                   if ("og:description".equals(text)) {
+                       System.out.println(tag.attr("content"));
+                    } else if ("og:title".equals(text)) {
+                        System.out.println(tag.attr("content"));
+                    }
+                }        
                 depth++;
                 for (Element page : linksOnPage) {
                     getPageLinks(page.attr("abs:href"), depth);
