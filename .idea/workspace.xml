@@ -40,8 +40,8 @@
       <file leaf-file-name="JavaWebCrawllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/amrit/WebCrawller/JavaWebCrawllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="253">
+              <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,18 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JavaWebCrawllerTest">
-    <configuration name="JavaWebCrawller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="amrit.WebCrawller.JavaWebCrawller" />
-      <module name="WebCrawller" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="amrit.WebCrawller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JavaWebCrawllerTest.testExceptionIfURLisCorrect">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -212,6 +201,29 @@
       <option name="PACKAGE_NAME" value="amrit.WebCrawller" />
       <option name="MAIN_CLASS_NAME" value="amrit.WebCrawller.JavaWebCrawllerTest" />
       <option name="METHOD_NAME" value="testException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JavaWebCrawllerTest.testExceptionIfURLisCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amrit.WebCrawller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="amrit.WebCrawller" />
+      <option name="MAIN_CLASS_NAME" value="amrit.WebCrawller.JavaWebCrawllerTest" />
+      <option name="METHOD_NAME" value="testExceptionIfURLisCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -307,19 +319,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.JavaWebCrawller" />
       <item itemvalue="JUnit.JavaWebCrawllerTest.testExceptionIsThrown" />
       <item itemvalue="JUnit.JavaWebCrawllerTest" />
       <item itemvalue="JUnit.JavaWebCrawllerTest.testException" />
       <item itemvalue="JUnit.JavaWebCrawllerTest.testExceptionif" />
+      <item itemvalue="JUnit.JavaWebCrawllerTest.testExceptionIfURLisCorrect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaWebCrawllerTest.testExceptionIfURLisCorrect" />
         <item itemvalue="JUnit.JavaWebCrawllerTest" />
         <item itemvalue="JUnit.JavaWebCrawllerTest.testExceptionif" />
         <item itemvalue="JUnit.JavaWebCrawllerTest.testException" />
         <item itemvalue="JUnit.JavaWebCrawllerTest.testExceptionIsThrown" />
-        <item itemvalue="Application.JavaWebCrawller" />
       </list>
     </recent_temporary>
   </component>
@@ -345,12 +357,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JavaWebCrawllerTest_testException - 2018.10.08 at 09h 48m 29s.xml">
-      <configuration name="JavaWebCrawllerTest.testException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JavaWebCrawllerTest - 2018.10.08 at 09h 50m 18s.xml">
-      <configuration name="JavaWebCrawllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JavaWebCrawllerTest - 2018.10.08 at 09h 50m 46s.xml">
       <configuration name="JavaWebCrawllerTest" configurationId="JUnit" />
     </history-entry>
@@ -374,6 +380,12 @@
     </history-entry>
     <history-entry file="JavaWebCrawllerTest_testExceptionif - 2018.10.08 at 09h 59m 01s.xml">
       <configuration name="JavaWebCrawllerTest.testExceptionif" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaWebCrawllerTest - 2018.10.08 at 10h 00m 06s.xml">
+      <configuration name="JavaWebCrawllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaWebCrawllerTest_testExceptionIfURLisCorrect - 2018.10.08 at 10h 07m 14s.xml">
+      <configuration name="JavaWebCrawllerTest.testExceptionIfURLisCorrect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -435,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/amrit/WebCrawller/JavaWebCrawllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="253">
+          <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mock;
 
+import java.util.regex.Pattern;
+
 
 public class JavaWebCrawllerTest {
 
@@ -28,6 +30,16 @@ public class JavaWebCrawllerTest {
     String url="http://www.bbc.com/";
      int depth=2;
 			Assert.assertTrue(null==webCrawller);
+
+	}
+
+	@Test
+	public void testExceptionIfURLisCorrect() {
+		String url="http://www.bbc.com/";
+		int depth=2;
+		String regex = "\\b(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
+
+		Assert.assertTrue( Pattern.matches(regex, url));
 
 	}
 }
