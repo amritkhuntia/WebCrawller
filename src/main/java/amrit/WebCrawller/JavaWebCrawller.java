@@ -9,21 +9,24 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class JavaWebCrawller {
+
+    public JavaWebCrawller() {
+        links = new HashSet<String>();
+    }
 	private static final int MAXDEPTH = 2;
     private HashSet<String> links;
+
     
     public static void main(String[] args) {
         new JavaWebCrawller().getPageLinks("http://www.bbc.com/", 0);
     }
 
-    public JavaWebCrawller() {
-        links = new HashSet<String>();
-    }
+
 
     public void getPageLinks(String URL, int depth) {
     	//int depth=0;
         if ((!links.contains(URL) && (depth < MAXDEPTH))) {
-            System.out.println(">> Depth: " + depth + " [" + URL + "]");
+            System.out.println( " [" + URL + "]");
             try {
                 links.add(URL);
 
